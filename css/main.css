@@ -204,10 +204,11 @@ nav ul li a:hover {
   background: inherit;
 }
 
-h1 {
+h3 {
   color: #fff;
   text-align: center;
   text-decoration: none;
+  font-size: large;
 }
 
 span {
