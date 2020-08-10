@@ -41,9 +41,7 @@ nav ul li a:hover {
 #welcome-section {
   line-height: 1.6;
   background: #F5F5F5;
-  min-height: 20vh;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding: 20vh 0;
   text-align: 
 }
   
