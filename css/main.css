@@ -130,7 +130,7 @@ nav ul li a:hover {
 .contact-details {
   padding: 60px;
   display: inline-block;
-  
+  text-align: center;
 }
 
 /* mobile section */
