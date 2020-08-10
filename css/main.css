@@ -79,14 +79,19 @@ nav ul li a:hover {
   height: 180px;
   border-bottom: 2px solid #ababab;
   border-radius: 5px;
-  -webkit-filter: blur(5px);
-  filter: blur(5px);
 }
+
+.w3-card-4{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
+.w3-margin{margin:16px!important}.w3-margin-top{margin-top:16px!important}.w3-margin-bottom{margin-bottom:16px!important}
+.w3-white,.w3-hover-white:hover{color:#000!important;background-color:#fff!important}
 
 .project-title {
   color: #111;
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
   font-weight: bold;
   padding-top: 6px;
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
 }
 
 .project-title:hover {
