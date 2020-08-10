@@ -61,12 +61,10 @@ nav ul li a:hover {
 }
 
 .project {
-  text-decoration: none;
+  box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
   background-color: #c4c4c4;
   display: inline-block;
   overflow: hidden;
-  border: 2px solid #ababab;
-  border-radius: 5px;
   height: 220px;
   width: 280px;
   margin: 40px 100px;
@@ -79,18 +77,23 @@ nav ul li a:hover {
   border-radius: 5px;
 }
 
-.w3-card-4{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
-.w3-margin{margin:16px!important}.w3-margin-top{margin-top:16px!important}.w3-margin-bottom{margin-bottom:16px!important}
-.w3-white,.w3-hover-white:hover{color:#000!important;background-color:#fff!important}
+.projet-blurbar {
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  background-color: rgba(255,255,255, 0.4); /* White w/opacity/see-through */
+}
 
 .project-title {
   color: #111;
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  
   font-weight: bold;
   padding-top: 6px;
-  -webkit-filter: blur(5px);
-  filter: blur(5px);
+
 }
+.w3-margin{margin:16px!important}.w3-margin-top{margin-top:16px!important}.w3-margin-bottom{margin-bottom:16px!important}
+.w3-white,.w3-hover-white:hover{color:#000!important;background-color:#fff!important}
+
+
 
 .project-title:hover {
   color: #939393;
@@ -145,6 +148,71 @@ nav ul li a:hover {
   padding-left:8px;
   padding-right:8px;
   text-align:center
+}
+
+
+
+
+
+.blurredBG {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40vw;
+  min-height: 400px;
+  min-width: 400px;
+  background-size: cover;
+  display: inline-block;
+  box-shadow: 0 0 8px #000;
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  margin: 8px;
+}
+
+.blurredBG .parentBG {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  box-shadow: 0 0 8px #000;
+  z-index: 1;
+  overflow: hidden;
+  transform: translateY(100%);
+  transition: 0.5s;
+  opacity: 0;
+  background: inherit;
+}
+
+.blurredBG:hover .parentBG {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.blurredBG .content {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 8px;
+}
+
+.blurredBG .bG {
+  position: absolute;
+  width: 40vw;
+  min-width: 400px;
+  min-height: 400px;
+  background-size: cover;
+  bottom: 0;
+  z-index: -1;
+  filter: blur(4px);
+  background: inherit;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+span {
+  box-shadow: 5px 0 0 rgba(0,0,0,0.5), -5px 0 0 rgba(0,0,0,0.5);
+  text-decoration: none;
 }
 
 
