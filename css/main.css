@@ -79,6 +79,7 @@ nav ul li a:hover {
   height: 180px;
   border-bottom: 2px solid #ababab;
   border-radius: 5px;
+  -webkit-filter: blur(5px);
   filter : blur(5px);
 }
 
