@@ -35,8 +35,15 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+Usefull Links :
+https://github.com/vitorlans/w3-css/blob/master/w3.css
+https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_clothing_store&stacked=h
+https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_blog&stacked=h
+http://www.mashup-template.com/templates.html
+https://serialmentor.com/blog/2015/8/6/goodbye-squarespace
 <html>
   
-<par1>Hello World!</par1>
+<p style="color:DodgerBlue;">Hello World!</p>
 
 </html>
