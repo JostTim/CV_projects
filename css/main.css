@@ -199,7 +199,7 @@ nav ul li a:hover {
   width: 100%;
   bottom: 0;
   box-shadow: 0 0 8px #000;
-  z-index: 3;
+  z-index: 2;
   overflow: hidden;
   transform: translateY(100%);
   transition: 0.5s;
@@ -215,6 +215,7 @@ nav ul li a:hover {
 .blurredBG .content {
   background-color: rgba(0, 0, 0, 0.2);
   padding: 8px;
+  z-index: 4;
 }
 
 .blurredBG .bG {
@@ -224,7 +225,7 @@ nav ul li a:hover {
   min-height: 400px;
   background-size: cover;
   bottom: 0;
-  z-index: 2;
+  z-index: 3;
   filter: blur(4px);
   background: inherit;
 }
