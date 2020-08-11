@@ -48,6 +48,20 @@ http://www.mashup-template.com/templates.html
 
 https://serialmentor.com/blog/2015/8/6/goodbye-squarespace
 
+https://www.gradient-animator.com/
+
+https://cssgradient.io/blog/css-gradient-text/
+
+https://css-tricks.com/sticky-smooth-active-nav/
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+https://codepen.io/josttim/pen/gOrabzG
+
+https://stackoverflow.com/questions/8284560/is-it-possible-to-embed-videos-on-a-github-page
+
+https://github.com/etianen/html5media/wiki/embedding-video
+
 <html>
   
 <p style="color:DodgerBlue;">Hello World!</p>
