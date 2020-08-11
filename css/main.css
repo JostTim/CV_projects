@@ -16,6 +16,7 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9a08dd', endColorstr='#3a9eff');
   background: -o-linear-gradient(rgb(207,221,172),rgb(255,255,255));*/
   background: linear-gradient(63deg, #9a08dd, #3a9eff, #ff783a, #3ab8ff);
+  background-size: 200% 200%;
   /*
   -webkit-animation: WavyBackground 3s ease infinite;
   -moz-animation: WavyBackground 3s ease infinite;
