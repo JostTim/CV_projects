@@ -21,6 +21,7 @@ body {
   background-color: #Fff;
   font-family: "comfortaa",sans-serif; 
   font-size: 1.2em;
+  z-index: 5;
 }
 
 nav ul li {
