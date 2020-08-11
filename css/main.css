@@ -21,12 +21,12 @@ body {
   background-color: #Fff;
   font-family: "comfortaa",sans-serif; 
   font-size: 1.2em;
-  z-index: 5;
+  z-index: 100;
 }
 
 nav ul li {
   display: inline-block;
-  margin: 30px; 
+  margin: 30px;
 }
 
 nav ul li a {
@@ -192,7 +192,7 @@ nav ul li a:hover {
   overflow: hidden;
   color: #fff;
   margin: 8px;
-  z-index: 1;
+  z-index: 2;
 }
 
 .blurredBG .parentBG {
@@ -200,7 +200,7 @@ nav ul li a:hover {
   width: 100%;
   bottom: 0;
   box-shadow: 0 0 8px #000;
-  z-index: 1;
+  z-index: 2;
   overflow: hidden;
   transform: translateY(100%);
   transition: 0.5s;
@@ -225,7 +225,7 @@ nav ul li a:hover {
   min-height: 400px;
   background-size: cover;
   bottom: 0;
-  z-index: -1;
+  z-index: 1;
   filter: blur(4px);
   background: inherit;
 }
