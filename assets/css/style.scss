@@ -1,10 +1,9 @@
-@import ‘jekyll-theme-tactile’;
-
-<style>
+@import "{{ site.theme }}";
 
 
-h1 {
-  color: green;
-  text-align: center;
+.main-content {
+  h1 {
+   color: #ff0000;
+ }
 }
-</style>
+
