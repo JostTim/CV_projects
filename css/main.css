@@ -21,7 +21,7 @@ body {
   background-color: #Fff;
   font-family: "comfortaa",sans-serif; 
   font-size: 1.2em;
-  z-index: -1;
+  z-index: 10;
 }
 
 nav ul li {
@@ -168,7 +168,7 @@ nav ul li a:hover {
   overflow: hidden;
   color: #fff;
   margin: 8px;
-  z-index: -1;
+  z-index: 2;
 }
 
 .blurredBG .parentBG {
