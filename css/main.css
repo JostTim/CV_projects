@@ -160,6 +160,8 @@ nav ul li a:hover {
 
 .contact-details {
   padding: 20px;
+  padding-left:10vw;
+  padding-right:10vw;
   display: inline-block;
   text-align: center;
 }
