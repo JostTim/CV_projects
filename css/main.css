@@ -320,7 +320,7 @@ span {
 
 /* mobile section */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   nav ul {
     display:none;
     text-align: center;
