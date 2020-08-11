@@ -64,6 +64,7 @@ https://github.com/etianen/html5media/wiki/embedding-video
 
 https://nicolas-van.github.io/easy-markdown-to-github-pages/
 
+https://aregsar.com/blog/2019/how-to-customize-your-github-pages-blog-layout-in-five-minutes/
 
 <html>
   
