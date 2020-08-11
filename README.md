@@ -62,6 +62,9 @@ https://stackoverflow.com/questions/8284560/is-it-possible-to-embed-videos-on-a-
 
 https://github.com/etianen/html5media/wiki/embedding-video
 
+https://nicolas-van.github.io/easy-markdown-to-github-pages/
+
+
 <html>
   
 <p style="color:DodgerBlue;">Hello World!</p>
