@@ -44,7 +44,7 @@ nav ul li a:hover {
   /*background: #F5F5F5;*/
   
   background: linear-gradient(63deg, #9a08dd, #3a9eff, #ff783a, #3ab8ff);
-  content : "this is a test";
+  content: "this is a test";
   -webkit-animation: WavyBackground 21s ease infinite;
   -moz-animation: WavyBackground 21s ease infinite;
   -o-animation: WavyBackground 21s ease infinite;
@@ -59,7 +59,7 @@ nav ul li a:hover {
   animation: WavyBackground 21s ease infinite;
   */
   padding: 20vh 0;
-  text-align: 
+  text-align: center
 }
 
 #lab {
