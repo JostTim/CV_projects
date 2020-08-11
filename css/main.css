@@ -66,7 +66,7 @@ body {
 
 nav ul li {
   display: inline-block;
-  margin: 30px;
+  margin: 2.5vh;
 }
 
 nav ul li a {
@@ -146,14 +146,14 @@ nav ul li a:hover {
 /* the projects section */
 
 .work {
-  padding-top: 60px;
-  margin-top: -60px;
-  padding-bottom: 60px;
+  padding-top: 5vh;
+  margin-top: -5vh;
+  padding-bottom: 5vh;
   background-color: #dcdcdc;
 }
 
 .work .work-header {
-  margin-top: 50px;
+  margin-top: 5vh;
   color: #111;
   font-weight: normal;
 }
@@ -228,13 +228,15 @@ nav ul li a:hover {
 
 .contact {
   background-color: #ababab;
-  padding: 60px ;
+  padding: 5vh ;
   line-height: 1.6;
 }
 
 .contact-details {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  width = 10vw
+  height = 10vh
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
   padding-left:5vw;
   padding-right:5vw;
   display: inline-block;
@@ -318,7 +320,7 @@ span {
 
 /* mobile section */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   nav ul {
     display:none;
     text-align: center;
