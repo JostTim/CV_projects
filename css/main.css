@@ -152,8 +152,9 @@ nav ul li a:hover {
 
 .contact {
   background-color: #ababab;
-  position: fixed;
   bottom: 0;
+  bottom: 0;
+  width: 100%;
   padding: 60px ;
   line-height: 1.6;
 }
