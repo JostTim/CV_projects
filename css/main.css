@@ -44,13 +44,20 @@ nav ul li a:hover {
   /*background: #F5F5F5;*/
   
   background: linear-gradient(63deg, #9a08dd, #3a9eff, #ff783a, #3ab8ff);
-  background-size: 800% 800%;
 
   -webkit-animation: WavyBackground 21s ease infinite;
   -moz-animation: WavyBackground 21s ease infinite;
   -o-animation: WavyBackground 21s ease infinite;
   animation: WavyBackground 21s ease infinite;
   
+  /*background: linear-gradient(63deg, #e2d0ea, #b8d2ec, #f2d0c0, #cae5f3);
+  background-size: 800% 800%;
+
+  -webkit-animation: WavyBackground 21s ease infinite;
+  -moz-animation: WavyBackground 21s ease infinite;
+  -o-animation: WavyBackground 21s ease infinite;
+  animation: WavyBackground 21s ease infinite;
+  */
   padding: 20vh 0;
   text-align: 
 }
@@ -95,6 +102,28 @@ nav ul li a:hover {
     100%{background-position:0% 66%}
 }
 
+/*
+ @-webkit-keyframes WavyBackground {
+    0%{background-position:0% 66%}
+    50%{background-position:100% 35%}
+    100%{background-position:0% 66%}
+}
+@-moz-keyframes WavyBackground {
+    0%{background-position:0% 66%}
+    50%{background-position:100% 35%}
+    100%{background-position:0% 66%}
+}
+@-o-keyframes WavyBackground {
+    0%{background-position:0% 66%}
+    50%{background-position:100% 35%}
+    100%{background-position:0% 66%}
+}
+@keyframes WavyBackground {
+    0%{background-position:0% 66%}
+    50%{background-position:100% 35%}
+    100%{background-position:0% 66%}
+}
+*/
   
   
 /* the projects section */
