@@ -320,6 +320,7 @@ span {
 
 @media screen and (max-width: 400px) {
   nav ul {
+    display:none;
     text-align: center;
   }
   nav ul li {
