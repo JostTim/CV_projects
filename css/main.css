@@ -65,6 +65,39 @@ nav ul li a:hover {
   line-height: 1.6;
 }
 
+
+
+.css-selector {
+    background: linear-gradient(63deg, #9a08dd, #3a9eff, #ff783a, #3ab8ff);
+    background-size: 800% 800%;
+
+    -webkit-animation: WavyBackground 21s ease infinite;
+    -moz-animation: WavyBackground 21s ease infinite;
+    -o-animation: WavyBackground 21s ease infinite;
+    animation: WavyBackground 21s ease infinite;
+}
+
+@-webkit-keyframes WavyBackground {
+    0%{background-position:0% 66%}
+    50%{background-position:100% 35%}
+    100%{background-position:0% 66%}
+}
+@-moz-keyframes WavyBackground {
+    0%{background-position:0% 66%}
+    50%{background-position:100% 35%}
+    100%{background-position:0% 66%}
+}
+@-o-keyframes WavyBackground {
+    0%{background-position:0% 66%}
+    50%{background-position:100% 35%}
+    100%{background-position:0% 66%}
+}
+@keyframes WavyBackground {
+    0%{background-position:0% 66%}
+    50%{background-position:100% 35%}
+    100%{background-position:0% 66%}
+}
+
   
   
 /* the projects section */
@@ -252,4 +285,6 @@ span {
   .project {
     margin: 40px 0;
   }
+  
+  
 }
