@@ -12,6 +12,26 @@ body {
   -o-animation: WavyBackground 21s ease infinite;
   animation: WavyBackground 21s ease infinite;
 }
+@-webkit-keyframes WavyBackground {
+    0%{background-position:0% 66%}
+    50%{background-position:100% 35%}
+    100%{background-position:0% 66%}
+}
+@-moz-keyframes WavyBackground {
+    0%{background-position:0% 66%}
+    50%{background-position:100% 35%}
+    100%{background-position:0% 66%}
+}
+@-o-keyframes WavyBackground {
+    0%{background-position:0% 66%}
+    50%{background-position:100% 35%}
+    100%{background-position:0% 66%}
+}
+@keyframes WavyBackground {
+    0%{background-position:0% 66%}
+    50%{background-position:100% 35%}
+    100%{background-position:0% 66%}
+}
 
 * {
   margin: 0;
@@ -82,26 +102,8 @@ nav ul li a:hover {
   line-height: 1.6;
 }
 
-@-webkit-keyframes WavyBackground {
-    0%{background-position:0% 66%}
-    50%{background-position:100% 35%}
-    100%{background-position:0% 66%}
-}
-@-moz-keyframes WavyBackground {
-    0%{background-position:0% 66%}
-    50%{background-position:100% 35%}
-    100%{background-position:0% 66%}
-}
-@-o-keyframes WavyBackground {
-    0%{background-position:0% 66%}
-    50%{background-position:100% 35%}
-    100%{background-position:0% 66%}
-}
-@keyframes WavyBackground {
-    0%{background-position:0% 66%}
-    50%{background-position:100% 35%}
-    100%{background-position:0% 66%}
-}
+
+
 
 /*
  @-webkit-keyframes WavyBackground {
