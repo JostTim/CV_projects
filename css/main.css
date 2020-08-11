@@ -5,11 +5,17 @@ html,
 body {
   font-family: 'comfortaa', sans-serif;
   text-align: center;
+  background: -moz-linear-gradient(top,  #9a08dd,  #fff);
+  background: -webkit-gradient(linear, left top, left bottom, from(#9a08dd), to(#3a9eff));
   background-image: linear-gradient(63deg, #9a08dd, #3a9eff, #ff783a, #3ab8ff);
-  -webkit-animation: WavyBackground 21s ease infinite;
-  -moz-animation: WavyBackground 21s ease infinite;
-  -o-animation: WavyBackground 21s ease infinite;
-  animation: WavyBackground 21s ease infinite;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9a08dd', endColorstr='#3a9eff');
+  background: -o-linear-gradient(rgb(207,221,172),rgb(255,255,255));
+  
+  -webkit-animation: WavyBackground 3s ease infinite;
+  -moz-animation: WavyBackground 3s ease infinite;
+  -o-animation: WavyBackground 3s ease infinite;
+  -z-animation: WavyBackground 3s linear infinite;
+  animation: WavyBackground 3s ease infinite;
 }
 @-webkit-keyframes WavyBackground {
     0%{background-position:0% 66%}
