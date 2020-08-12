@@ -317,6 +317,11 @@ span {
   text-decoration: none;
 }
 
+.pdfimage{
+    width: 80vw;
+    height: 113vw;
+}
+
 .embedpdf {
     width: 80vw;
     height: 100vh;
@@ -339,11 +344,11 @@ span {
   
   .blurredBG {
     width: 80vw;
-    height: 40vh;
+    height: 40vw;
   }
   .blurredBG .bG {
     width: 80vw;
-    height: 40vh;
+    height: 40vw;
   }
   
   
