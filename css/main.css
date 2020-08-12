@@ -318,8 +318,8 @@ span {
 }
 
 .pdfimage{
-    width: 80vw;
-    height: 113vw;
+    width: 60vw;
+    height: 84vw;
 }
 
 .embedpdf {
@@ -351,5 +351,10 @@ span {
     height: 40vw;
   }
   
+  .pdfimage{
+    width: 80vw;
+    height: 113vw;
+  }
+    
   
 }
