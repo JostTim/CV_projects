@@ -261,7 +261,7 @@ nav ul li a:hover {
   margin-left: auto;
   margin-right: auto;
   width: 40vw;
-  height: 40vh;
+  height: 20vw;
   background-size: cover;
   display: inline-block;
   box-shadow: 0 0 8px #000;
@@ -297,7 +297,7 @@ nav ul li a:hover {
 .blurredBG .bG {
   position: absolute;
   width: 40vw;
-  height: 40vh;
+  height: 20vw;
   background-size: cover;
   bottom: 0;
   z-index: -1;
