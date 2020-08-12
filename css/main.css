@@ -228,17 +228,17 @@ nav ul li a:hover {
 
 .contact {
   background-color: #ababab;
-  padding: 5vh ;
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
+  width = 100%;
   line-height: 1.6;
 }
 
 .contact-details {
   width = 10vw
   height = 10vh
-  padding-top: 2.5vh;
-  padding-bottom: 2.5vh;
-  padding-left:5vw;
-  padding-right:5vw;
+  padding-left:2.5vw;
+  padding-right:2.5vw;
   display: inline-block;
   text-align: center;
 }
