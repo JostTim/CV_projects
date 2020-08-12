@@ -317,6 +317,11 @@ span {
   text-decoration: none;
 }
 
+.embedpdf {
+    width: 80vw;
+    height: 100vh;
+}
+
 
 /* mobile section */
 
