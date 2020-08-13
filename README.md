@@ -70,6 +70,8 @@ https://aregsar.com/blog/2019/how-to-customize-your-github-pages-blog-layout-in-
 
 https://websitehelpers.com/spam/
 
+https://htmldog.com/techniques/showhide/
+
 <html>
   
 <p style="color:DodgerBlue;">Hello World!</p>
