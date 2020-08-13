@@ -254,7 +254,8 @@ nav ul li a:hover {
 }
 
 .project-title-span {
-  background-color: rgba(0,0,0,1)
+  background-color: rgba(0,0,0,1);
+  shadow: 5px 0 0 rgba(0,0,0,0.5), -5px 0 0 rgba(0,0,0,0.5);
 }
 
 
