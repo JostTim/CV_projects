@@ -1,4 +1,42 @@
-## Welcome to GitHub Pages
+## Usefull Links :
+
+https://github.com/vitorlans/w3-css/blob/master/w3.css
+
+https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_clothing_store&stacked=h
+
+https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_blog&stacked=h
+
+http://www.mashup-template.com/templates.html
+
+https://serialmentor.com/blog/2015/8/6/goodbye-squarespace
+
+https://www.gradient-animator.com/
+
+https://cssgradient.io/blog/css-gradient-text/
+
+https://css-tricks.com/sticky-smooth-active-nav/
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+https://codepen.io/josttim/pen/gOrabzG
+
+https://stackoverflow.com/questions/8284560/is-it-possible-to-embed-videos-on-a-github-page
+
+https://github.com/etianen/html5media/wiki/embedding-video
+
+https://nicolas-van.github.io/easy-markdown-to-github-pages/
+
+https://aregsar.com/blog/2019/how-to-customize-your-github-pages-blog-layout-in-five-minutes/
+
+https://websitehelpers.com/spam/
+
+https://htmldog.com/techniques/showhide/
+
+## Main page adress
+
+https://josttim.github.io/realizations/
+
+## MD reference
 
 You can use the [editor on GitHub](https://github.com/JostTim/CV_projects/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
@@ -36,44 +74,4 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
-https://josttim.github.io/realizations/
 
-Usefull Links :
-
-https://github.com/vitorlans/w3-css/blob/master/w3.css
-
-https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_clothing_store&stacked=h
-
-https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_blog&stacked=h
-
-http://www.mashup-template.com/templates.html
-
-https://serialmentor.com/blog/2015/8/6/goodbye-squarespace
-
-https://www.gradient-animator.com/
-
-https://cssgradient.io/blog/css-gradient-text/
-
-https://css-tricks.com/sticky-smooth-active-nav/
-
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-
-https://codepen.io/josttim/pen/gOrabzG
-
-https://stackoverflow.com/questions/8284560/is-it-possible-to-embed-videos-on-a-github-page
-
-https://github.com/etianen/html5media/wiki/embedding-video
-
-https://nicolas-van.github.io/easy-markdown-to-github-pages/
-
-https://aregsar.com/blog/2019/how-to-customize-your-github-pages-blog-layout-in-five-minutes/
-
-https://websitehelpers.com/spam/
-
-https://htmldog.com/techniques/showhide/
-
-<html>
-  
-<p style="color:DodgerBlue;">Hello World!</p>
-
-</html>
