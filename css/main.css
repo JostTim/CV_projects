@@ -253,8 +253,9 @@ nav ul li a:hover {
   text-align:center
 }
 
-
-
+.project-title-span {
+  background-color: rgba(0,0,0,1)
+}
 
 
 .blurredBG {
