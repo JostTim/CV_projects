@@ -14,9 +14,7 @@
   </head>
 	
 <style>
-.see-more-button:hover {
-  text-decoration: underline;
-   &:before{
+.see-more-button::hover::before {
    height: 0;
    width: 0;
    content: "";
@@ -31,7 +29,6 @@
    -moz-animation:    wiggle 0.25s ease-in-out; 
    -o-animation:      wiggle 0.25s ease-in-out; 
    animation:         wiggle 0.25s ease-in-out;
-   }
   }
 
 .see-more-button {
