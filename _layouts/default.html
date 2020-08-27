@@ -24,11 +24,8 @@
         </header>
       {% if site.show_downloads %}
         <section id="downloads" class="clearfix">
-          {% if site.show_downloads %}
-          <a href="{{ site.github.zip_url }}" id="download-zip" class="button"><span>Download .zip</span></a>
-          <a href="{{ site.github.tar_url }}" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
-          
-
+        	<a href="{{ site.github.zip_url }}" id="download-zip" class="button"><span>Download .zip</span></a>
+        	<a href="{{ site.github.tar_url }}" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
         </section>
       {% endif %}
         <hr>
@@ -41,7 +38,7 @@
           {{ site.title | default: site.github.repository_name }} is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a><br>
         {% endif %}-->
           Hosted with <a href="https://pages.github.com">GitHub Pages</a>.
-	  &copy 2020 Timothe Jost-Mousseau
+	  &copy; 2020 Timothe Jost-Mousseau
         </footer>
 
       </div>
