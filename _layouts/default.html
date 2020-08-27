@@ -63,9 +63,11 @@ body {
    -o-animation:      wiggle 1s ease-in-out; 
    animation:         wiggle 1s ease-in-out;
   }
-
+.spacerblock {
+  padding-top: 10%;
+}
+	
 .see-more-button {
-   padding-top: 5%;
    cursor: pointer;
    position: relative;
    text-align : center;
@@ -98,14 +100,14 @@ img {
   text-align : center;
   background-color: #f3ec78;
   background-image: linear-gradient(63deg, #e2d0ea, #b8d2ec, #f2d0c0, #cae5f3, #d8f2ae, #d5b2cc, #e9f092);
-  background-image: linear-gradient(63deg,  #af4261, #000000, #af4261);
+  background-image: linear-gradient(63deg,  #000000, #af4261,  #000000 );
   background-size: 200% 200%;
+  color: rgba(0, 0, 0, 0.5);
   animation: WavyBackground 10s ease infinite;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
-	
 }
 	
 @keyframes WavyBackground {
