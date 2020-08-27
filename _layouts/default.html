@@ -19,23 +19,7 @@
 @import 'https://fonts.googleapis.com/css?family=Comfortaa:400,700|Fredoka+One|Nunito:400,800,900|Poiret+One|Quicksand:400,500,700';	
 	
 	
-@media screen and (max-width: 800px) {
-	.see-more-button{
-		content: url("https://raw.githubusercontent.com/JostTim/realizations/b8aab60f93318ef7c85c8e291f45c8f39edc9dd1/res/return-button.svg");
-		width : 10%;
-		height : auto;
-	        margin-left: auto;
-                margin-right: auto;
-	}
-	.see-more-button:hover:before {
-		border-right-color: transparent;
-	}
-	.see-more-button:hover:before {
-	}
-	.largeheader{
-	 font-size: 2em;
-	}
-}
+
 	
 .underlayed-tag {
   background-color: #000;
@@ -110,10 +94,11 @@ img {
 }
 	
 .largeheader {
-  text-align : center;
   font-size: 4em;
+  text-align : center;
   background-color: #f3ec78;
   background-image: linear-gradient(63deg, #e2d0ea, #b8d2ec, #f2d0c0, #cae5f3, #d8f2ae, #d5b2cc, #e9f092);
+  background-image: linear-gradient(63deg, #f3ec78, #af4261);
   background-size: 200% 200%;
   animation: WavyBackground 10s ease infinite;
   -webkit-background-clip: text;
@@ -127,6 +112,25 @@ img {
     0%{background-position:0% 66%}
     50%{background-position:100% 35%}
     100%{background-position:0% 66%}
+	
+@media screen and (max-width: 800px) {
+	.see-more-button{
+		content: url("https://raw.githubusercontent.com/JostTim/realizations/b8aab60f93318ef7c85c8e291f45c8f39edc9dd1/res/return-button.svg");
+		width : 10%;
+		height : auto;
+	        margin-left: auto;
+                margin-right: auto;
+	}
+	.see-more-button:hover:before {
+		border-right-color: transparent;
+	}
+	.see-more-button:hover:before {
+	}
+	.largeheader{
+	 font-size: 2em;
+	}
+}
+	
 }
 
 </style>
