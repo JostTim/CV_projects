@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Comfortaa:400,700|Fredoka+One|Nunito:400,800,900|Poiret+One|Quicksand:400,500,700';
+
 
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
@@ -16,22 +16,28 @@
   </head>
 	
 <style>
-	
+@import 'https://fonts.googleapis.com/css?family=Comfortaa:400,700|Fredoka+One|Nunito:400,800,900|Poiret+One|Quicksand:400,500,700';	
 	
 .see-more-button:hover{
   text-decoration: underline;
   font-weight: bold;
 }
 	
+body {
+   margin-left: 20%;
+   margin-top: 20%;
+}
+	
 	
 .see-more-button:hover:before {
+	
    height: 0;
    width: 0;
    content: "aze";
    border: 7px solid #ccc;
    border-color: transparent;
    border-right-color: #767676;
-   position: absolute;
+   position: relative;
    top: 4px;
    left: -22px;
 	
@@ -79,6 +85,7 @@ h1{
 
 
   <body>
+	  
     <div id="container">
       <div class="inner">
 
