@@ -47,3 +47,6 @@ GitHub pages based on [Jekyll](https://jekyllrb.com/) builder, with has HTML, CS
 Jekyll repo theme[repository settings](https://github.com/JostTim/CV_projects/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 Github pages [documentation](https://docs.github.com/categories/github-pages-basics/)
+
+## Aknowlegements:
+Return icon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
