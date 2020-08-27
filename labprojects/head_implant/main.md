@@ -23,6 +23,8 @@ Attaching a multi-core fiber optical image guide to freely behaving models.
 
 Manufactured in Titanium, with laser sintering 3D printing techinque. Flat critical surfaces like head post and ring resting plane polished by hand. 
 
+![DessinChemaCrane](DessinChemaCrane.png)
+
 ## Details :
 
 VSD awake staining : using high resolution SLA 3D printing with flexible resin to create liquid tight chamber.
