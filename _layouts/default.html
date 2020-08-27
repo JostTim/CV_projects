@@ -12,6 +12,41 @@
 
 {% seo %}
   </head>
+	
+<style>
+.see-more-button:hover {
+  text-decoration: underline;
+   &:before{
+   height: 0;
+   width: 0;
+   content: "";
+   border: 7px solid #ccc;
+   border-color: transparent;
+   border-right-color: #767676;
+   position: absolute;
+   top: 4px;
+   left: -22px;
+
+   -webkit-animation: wiggle 0.25s ease-in-out; 
+   -moz-animation:    wiggle 0.25s ease-in-out; 
+   -o-animation:      wiggle 0.25s ease-in-out; 
+   animation:         wiggle 0.25s ease-in-out;
+   }
+  }
+
+.see-more-button {
+   cursor: pointer;
+   position: relative;
+}
+
+@-webkit-keyframes wiggle {
+  0%, 100%   { left: -22px; }
+  50%  { left: -26px; }
+}
+
+
+</style>
+
 
   <body>
     <div id="container">
