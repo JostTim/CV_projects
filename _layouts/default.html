@@ -38,14 +38,20 @@
   display:none;
 }
 	
+#content::first-line{
+  display:none;
+}
+	
+#main_content::first-line {
+  display:none;
+}
+	
 body {
    margin-left: 0%;
    margin-right: 0%;
 }
 	
-#main_content::first-line {
-  color : transparent;
-}
+
 	
 .see-more-button:hover:before {
    height: 0;
@@ -101,7 +107,7 @@ img {
   text-align : center;
   background-color: #f3ec78;
   background-image: linear-gradient(63deg, #e2d0ea, #b8d2ec, #f2d0c0, #cae5f3, #d8f2ae, #d5b2cc, #e9f092);
-  background-image: linear-gradient(63deg,  #4d3936, #b51800, #f5a11b,  #4d3936 );
+  background-image: linear-gradient(63deg,  #4d3936, #b51800, #f5a11b );
   background-size: 200% 200%;
   color: rgba(0, 0, 0, 0.5);
   animation: WavyBackground 10s ease infinite;
@@ -109,12 +115,13 @@ img {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
-  text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+  text-shadow: 2px 2px 3px rgba(255,255,255,0.3);
 }
 	
 @keyframes WavyBackground {
     0%{background-position:0% 66%}
     50%{background-position:100% 35%}
+    75%{background-position:5% 45%}
     100%{background-position:0% 66%}
 	}
 	
