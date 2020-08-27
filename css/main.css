@@ -27,7 +27,7 @@ body {
   -moz-animation: WavyBackground 3s ease infinite;
   -o-animation: WavyBackground 3s ease infinite;
   -z-animation: WavyBackground 3s linear infinite;*/
-  animation: WavyBackground 3s ease infinite;
+  animation: WavyBackground 10s ease infinite;
 }
 /*
 @-webkit-keyframes WavyBackground {
