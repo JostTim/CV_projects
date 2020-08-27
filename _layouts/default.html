@@ -63,6 +63,7 @@ body {
    -o-animation:      wiggle 1s ease-in-out; 
    animation:         wiggle 1s ease-in-out;
   }
+	
 .spacerblock {
   padding-top: 10%;
 }
@@ -108,7 +109,7 @@ img {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
-  text-shadow: 2px 2px 3px rgba(255,255,255,0);
+  text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
 }
 	
 @keyframes WavyBackground {
@@ -148,8 +149,10 @@ img {
           <div class="largeheader ">{{ page.title | default: site.title | default: site.github.repository_name }}</div>
           <!--<h2> {{ page.description | default: site.description | default: site.github.project_tagline }}</h2> -->
 	  <a href = "https://josttim.github.io/realizations/"> 
-		<div class="see-more-button">
-			Back to main page
+		<div class="spacerblock">
+			<div class="see-more-button">
+				Back to main page
+			</div>
 		</div>
 	  </a>
         </header>
@@ -169,9 +172,9 @@ img {
         <!--{% if site.github.is_project_page %}
           {{ site.title | default: site.github.repository_name }} is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a><br>
         {% endif %}-->
-          	Hosted with <a href="https://pages.github.com">GitHub Pages</a>.
+          		Hosted with <a href="https://pages.github.com">GitHub Pages</a>.
 		</br>
-	  	&copy; 2020 Timothe Jost-Mousseau 
+	  		&copy; 2020 Timothe Jost-Mousseau 
 		</p>
         </footer>
 
