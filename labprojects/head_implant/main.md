@@ -25,6 +25,12 @@ Manufactured in Titanium, with laser sintering 3D printing techinque. Flat criti
 
 ![DessinschemaCrane](schemaDessinCrane.png)
 
+
+
+_____________
+
+
+
 ## Details :
 
 VSD awake staining : using high resolution SLA 3D printing with flexible resin to create liquid tight chamber.
