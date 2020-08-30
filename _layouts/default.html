@@ -176,7 +176,7 @@ img {
       {% endif %}
         <hr>
         <section id="main_content">
-          {{ content }}
+          {{ content  | remove: page.title  }}
         </section>
 
         <footer>
