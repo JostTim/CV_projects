@@ -37,6 +37,8 @@ https://websitehelpers.com/spam/
 
 https://htmldog.com/techniques/showhide/
 
+https://shopify.github.io/liquid/tags/variable/
+
 
 ## Site building reference:
 
