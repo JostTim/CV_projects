@@ -1,4 +1,4 @@
-# Head implant for fluorescence imaging
+<h1><div class="title">Head implant for fluorescence imaging<div/></h1>
 
 Attaching a multi-core fiber optical image guide to freely behaving models.
 
@@ -36,4 +36,6 @@ _____________
 VSD awake staining : using high resolution SLA 3D printing with flexible resin to create liquid tight chamber.
 
 Protection across days : head cap made in plastic with markings to identify models.
+
+
 

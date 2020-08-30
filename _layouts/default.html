@@ -14,13 +14,13 @@
 
 {% seo %}
   </head>
-	
-<style>
-@import 'https://fonts.googleapis.com/css?family=Comfortaa:400,700|Fredoka+One|Nunito:400,800,900|Poiret+One|Quicksand:400,500,700';	
-	
-	
 
-	
+<style>
+@import 'https://fonts.googleapis.com/css?family=Comfortaa:400,700|Fredoka+One|Nunito:400,800,900|Poiret+One|Quicksand:400,500,700';
+
+
+
+
 .underlayed-tag {
   background-color: #000;
   color:#fff;
@@ -29,7 +29,7 @@
   padding-right:8px;
   text-align:center
 }
-	
+
 .see-more-button:hover{
   text-decoration: underline;
 }
@@ -37,20 +37,24 @@
 #content .post-title {
   display:none;
 }
-	
+
 #content::first-line{
   display:none;
 }
-	
+
 #main_content::first-line {
   display:none;
 }
-	
+
+.title {
+  display:none;
+}
+
 body {
    margin-left: 0%;
    margin-right: 0%;
 }
-	
+
 .see-more-button:hover:before {
    height: 0;
    width: 0;
@@ -61,17 +65,17 @@ body {
    position: absolute;
    top: 5px;
    left: 200px;
-	
-   -webkit-animation: wiggle 1s ease-in-out; 
-   -moz-animation:    wiggle 1s ease-in-out; 
-   -o-animation:      wiggle 1s ease-in-out; 
+
+   -webkit-animation: wiggle 1s ease-in-out;
+   -moz-animation:    wiggle 1s ease-in-out;
+   -o-animation:      wiggle 1s ease-in-out;
    animation:         wiggle 1s ease-in-out;
   }
-	
+
 .spacerblock {
   padding-top: 5%;
 }
-	
+
 .see-more-button {
    cursor: pointer;
    position: relative;
@@ -83,7 +87,7 @@ body {
   0%, 100%   { left: 200px; }
   50%  { left: 0px; }
 }
-	
+
 a{
    color : black;
 }
@@ -92,14 +96,14 @@ a:hover{
    text-decoration: underline;
    font-weight: bold;
 }
-	
+
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
 }
-	
+
 .largeheader {
   font-size: 4em;
   line-height: 1.1em;
@@ -112,18 +116,18 @@ img {
   animation: WavyBackground 10s ease infinite;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   text-shadow: 2px 2px 3px rgba(255,255,255,0.3);
 }
-	
+
 @keyframes WavyBackground {
     0%{background-position:0% 66%}
     50%{background-position:100% 35%}
     75%{background-position:5% 45%}
     100%{background-position:0% 66%}
 	}
-	
+
 @media screen and (max-width: 800px) {
 	.see-more-button{
 		content: url("https://raw.githubusercontent.com/JostTim/realizations/b8aab60f93318ef7c85c8e291f45c8f39edc9dd1/res/return-button.svg");
@@ -145,21 +149,21 @@ img {
   	padding-top: 10%;
 	}
 }
-	
+
 }
 
 </style>
 
 
   <body>
-	  
+
     <div id="container">
       <div class="inner">
 
         <header>
           <div class="largeheader ">{{ page.title | default: site.title | default: site.github.repository_name }}</div>
           <!--<h2> {{ page.description | default: site.description | default: site.github.project_tagline }}</h2> -->
-	  <a href = "https://josttim.github.io/realizations/"> 
+	  <a href = "https://josttim.github.io/realizations/">
 		<div class="spacerblock">
 			<div class="see-more-button">
 				Back to main page
@@ -185,7 +189,7 @@ img {
         {% endif %}-->
           		Hosted with <a href="https://pages.github.com">GitHub Pages</a>.
 		</br>
-	  		&copy; 2020 Timothe Jost-Mousseau 
+	  		&copy; 2020 Timothe Jost-Mousseau
 		</p>
         </footer>
 
