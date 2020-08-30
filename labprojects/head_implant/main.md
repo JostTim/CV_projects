@@ -1,4 +1,4 @@
-<h1><div class="title">Head implant for fluorescence imaging<div/></h1>
+<h1>Head implant for fluorescence imaging</h1>
 
 Attaching a multi-core fiber optical image guide to freely behaving models.
 
