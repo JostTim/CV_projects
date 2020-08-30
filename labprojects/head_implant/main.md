@@ -58,10 +58,6 @@ Here is another representation to picture the scale of the whole implant and fib
 
 
 
-
-
-
-
 _____________
 
 ## Details:
@@ -95,22 +91,23 @@ The implant material is titanium, for it's high strength to weight ratio, and ma
 
 \*  *varies widely based on alloy & heat treatment*
 
-> <div class = "source">https://www.thomasnet.com/articles/metals-metal-products/steel-vs-titanium-strength-properties-and-uses/
-> https://www.nuclear-power.net/nuclear-engineering/metals-what-are-metals/alloys-composition-properties-of-metal-alloys/steel-vs-titanium-comparison-pros-and-cons/
->
-> </div>
+<div class = "source">
+https://www.thomasnet.com/articles/metals-metal-products/steel-vs-titanium-strength-properties-and-uses/
+https://www.nuclear-power.net/nuclear-engineering/metals-what-are-metals/alloys-composition-properties-of-metal-alloys/steel-vs-titanium-comparison-pros-and-cons/
+
+</div>
 
 
 
 
 
-VSD awake staining : using high resolution SLA 3D printing with flexible resin to create liquid tight chamber.
+<!--VSD awake staining : using high resolution SLA 3D printing with flexible resin to create liquid tight chamber.-->
 
 
 
 
 
-Protection across days : head cap made in plastic with markings to identify models.
+<!--Protection across days : head cap made in plastic with markings to identify models.-->
 
 
 
