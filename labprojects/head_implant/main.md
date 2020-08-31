@@ -50,7 +50,7 @@ Here, you can see animated the complete operation, in section view.
 
 Here is another representation to help picture the scale of the whole implant and fiber bundle with the skull of the model.
 
-<img src="schema_4.png" alt="schema_4" style="max-width:30%;" />
+<img src="schema_4.png" alt="schema_4" style="max-width:60%;" />
 
 <p style="text-align : center; text-decoration: underline;">Implant and fiber elements at scale and in position over the model's skull</p>
 
