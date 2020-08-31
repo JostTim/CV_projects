@@ -8,7 +8,7 @@ Miniature implant system to perform stable and precise mesoscale cortical imagin
 
 Using a flexible fiber optic bundle illustrated below, we record cortical fluorescence signals at a mesoscale resolution, while allowing models to behave freely.
 
-<img src="Fibroscopy_schematic.png" alt="Fibroscopy_schematic" style="zoom:25%;" />
+<img src="Fibroscopy_schematic.png" alt="Fibroscopy_schematic" style="max-width:30%;" />
 
 <p style="text-align : center; text-decoration: underline;">Fiber optic bundle characteristics</p>
 
@@ -28,7 +28,7 @@ One the figure below, you can see a cut-view of the implant components and a sch
 
 
 
-<img src="schemaDessinCrane.png" alt="DessinschemaCrane" style="zoom:35%;" />
+<img src="schemaDessinCrane.png" alt="DessinschemaCrane" style="max-width:100%" />
 
 <p style="text-align : center; text-decoration: underline;">Schematic of the implant holding the fiber bundle over the cortex</p>
 
@@ -50,7 +50,7 @@ Here, you can see animated the complete operation, in section view.
 
 Here is another representation to help picture the scale of the whole implant and fiber bundle with the skull of the model.
 
-<img src="schema_4.png" alt="schema_4" style="zoom:7%;" />
+<img src="schema_4.png" alt="schema_4" style="max-width:30%;" />
 
 <p style="text-align : center; text-decoration: underline;">Implant and fiber elements at scale and in position over the model's skull</p>
 
