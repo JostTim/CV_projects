@@ -14,7 +14,7 @@ Using a fiber optic bundle illustrated below, we record cortical fluorescence si
 
 <p style="text-align : center; text-decoration: underline;">Photograph of the implant held in the headpost:</p>
 
-![Sans titre-4](./Sans titre-4.png)
+![Photo - Schema](./Schema_photo1.png)
 
 The variation of fluorescence is measured and is on the order of magnitude of 1% (with Voltage Sensitive Dye RH1691).
 
@@ -52,7 +52,7 @@ Here is another representation to picture the scale of the whole implant and fib
 
 
 
-<img src="schema_4.png" alt="schema_4" style="zoom:25%;" />
+<img src="schema_4.png" alt="schema_4" style="zoom:7%;" />
 
 <p style="text-align : center; text-decoration: underline;">Implant and fiber elements at scale and in position over the model's skull</p>
 
