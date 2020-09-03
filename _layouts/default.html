@@ -182,41 +182,44 @@ img {
 
   <body>
 
+
+    <div class="headbg">
+      <header>
+        <div class="largeheader ">{{ page.title | default: site.title | default: site.github.repository_name }}</div>
+        <!--<h2> {{ page.description | default: site.description | default: site.github.project_tagline }}</h2> -->
+      	  <a href = "https://josttim.github.io/realizations/">
+        		<div class="spacerblock">
+        			<div class="see-more-button">
+        				Back to main page
+        			</div>
+        		</div>
+      	  </a>
+      </header>
+    </div>
+
     <div id="container">
       <div class="inner">
-        <div class="headbg">
-          <header>
-            <div class="largeheader ">{{ page.title | default: site.title | default: site.github.repository_name }}</div>
-            <!--<h2> {{ page.description | default: site.description | default: site.github.project_tagline }}</h2> -->
-          	  <a href = "https://josttim.github.io/realizations/">
-            		<div class="spacerblock">
-            			<div class="see-more-button">
-            				Back to main page
-            			</div>
-            		</div>
-          	  </a>
-          </header>
-        </div>
-      {% if site.show_downloads %}
-        <section id="downloads" class="clearfix">
-        	<a href="{{ site.github.zip_url }}" id="download-zip" class="button"><span>Download .zip</span></a>
-        	<a href="{{ site.github.tar_url }}" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
-        </section>
-      {% endif %}
+
+        {% if site.show_downloads %}
+          <section id="downloads" class="clearfix">
+          	<a href="{{ site.github.zip_url }}" id="download-zip" class="button"><span>Download .zip</span></a>
+          	<a href="{{ site.github.tar_url }}" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          </section>
+        {% endif %}
         <hr>
         <section id="main_content">
           {{ content  | remove: page.title  }}
         </section>
 
         <footer>
-		<p style="text-align:center">
-        <!--{% if site.github.is_project_page %}
-          {{ site.title | default: site.github.repository_name }} is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a><br>
-        {% endif %}-->
+      		<p style="text-align:center">
+              <!--{% if site.github.is_project_page %}
+                {{ site.title | default: site.github.repository_name }} is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a><br>
+              {% endif %}-->
           		Hosted with <a href="https://pages.github.com">GitHub Pages</a>.
-		</br>
-	  		&copy; 2020 Timothe Jost-Mousseau
-		</p>
+		          </br>
+      	  		&copy; 2020 Timothe Jost-Mousseau
+      		</p>
         </footer>
 
       </div>
