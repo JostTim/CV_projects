@@ -14,5 +14,3 @@ Once a certain number of supplementary trackers are added, usually around a doze
 
 <img src="Animation_light.gif" alt="Animation_light" style="width:40%;" />
 
-
-
