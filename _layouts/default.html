@@ -21,14 +21,7 @@
 
 
 
-.underlayed-tag {
-  background-color: #000;
-  color:#fff;
-  display:inline-block;
-  padding-left:8px;
-  padding-right:8px;
-  text-align:center
-}
+
 
 .see-more-button:hover{
   text-decoration: underline;
@@ -109,16 +102,25 @@ img {
 
 .headbg{
   background-image :linear-gradient(63deg,  #e2d0ea, #b8d2ec, #f2d0c0, #cae5f3, #d8f2ae, #d5b2cc, #e9f092);
-  animation: WavyBackground 15s ease infinite;
-  background-size: 600% 300%;
+  animation: WavyBackground 30s ease infinite;
+  background-size: 600% 600%;
   z-index: 5;
 }
 
 .largeheader2{
-  margin : auto;
+  margin-left : 10%;
+  margin-right : 10%;
   text-align : center;
   line-height: 1.15em;
   font-size: 2em;
+}
+
+.underlayed-tag {
+  background-color: #000;
+  color:#fff;
+  display:inline-block;
+  padding-left:8px;
+  padding-right:8px;
 }
 
 .largeheader {
@@ -174,17 +176,23 @@ hr{
 }
 
 
+
 </style>
 
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
 
   <body>
 
 
     <div class="headbg">
       <header>
-        <div class="largeheader2 underlayed-tag ">{{ page.title | default: site.title | default: site.github.repository_name }}</div>
+        <div class="largeheader2 underlayed-tag">{{ page.title | default: site.title | default: site.github.repository_name }}</div>
         <!--<h2> {{ page.description | default: site.description | default: site.github.project_tagline }}</h2> -->
-      	  <a href = "https://josttim.github.io/realizations/">
+      	  <a onclick="goBack()">
         		<div class="spacerblock">
         			<div class="see-more-button">
         				Back to main page
