@@ -34,20 +34,6 @@
   text-decoration: underline;
 }
 
-#content .post-title {
-  display:none;
-}
-
-#content::first-line{
-  display:none;
-}
-
-#main_content::first-line {
-  display:none;
-}
-
-
-
 body {
    margin-left: 0%;
    margin-right: 0%;
@@ -122,10 +108,18 @@ img {
 }
 
 .headbg{
-  background-color: blue;
-  background-size: 200px,200px;
+  background-image :linear-gradient(63deg,  #e2d0ea, #b8d2ec, #f2d0c0, #cae5f3, #d8f2ae, #d5b2cc, #e9f092);
+  animation: WavyBackground 10s ease infinite;
+  background-size: 300% 300%;
   z-index: 5;
 
+}
+
+.largeheader2{
+
+  text-align : center;
+  line-height: 1.15em;
+  font-size: 2em;
 }
 
 .largeheader {
@@ -145,6 +139,10 @@ img {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   text-shadow: 2px 2px 3px rgba(255,255,255,0.3);
+}
+
+hr{
+  margin : 0;
 }
 
 @keyframes WavyBackground {
@@ -185,7 +183,7 @@ img {
 
     <div class="headbg">
       <header>
-        <div class="largeheader ">{{ page.title | default: site.title | default: site.github.repository_name }}</div>
+        <div class="largeheader2 underlayed-tag ">{{ page.title | default: site.title | default: site.github.repository_name }}</div>
         <!--<h2> {{ page.description | default: site.description | default: site.github.project_tagline }}</h2> -->
       	  <a href = "https://josttim.github.io/realizations/">
         		<div class="spacerblock">
@@ -200,12 +198,13 @@ img {
     <div id="container">
       <div class="inner">
 
-        {% if site.show_downloads %}
+        <!--{% if site.show_downloads %}
           <section id="downloads" class="clearfix">
           	<a href="{{ site.github.zip_url }}" id="download-zip" class="button"><span>Download .zip</span></a>
           	<a href="{{ site.github.tar_url }}" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
           </section>
         {% endif %}
+      ²-->
         <hr>
         <section id="main_content">
           {{ content  | remove: page.title  }}
