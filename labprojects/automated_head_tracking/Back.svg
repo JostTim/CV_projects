@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Calque_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="362px" height="165.3px"
+	 viewBox="0 0 362 165.3" style="enable-background:new 0 0 362 165.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{clip-path:url(#SVGID_2_);}
+	.st2{fill:none;stroke:#000000;stroke-width:0.8;stroke-linecap:square;}
+	.st3{clip-path:url(#SVGID_4_);}
+	.st4{clip-path:url(#SVGID_6_);}
+	.st5{clip-path:url(#SVGID_8_);}
+	.st6{clip-path:url(#SVGID_10_);}
+</style>
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  bottomLeftOrigin="true" height="141.5" width="332.1" x="56.8" y="112.3"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g id="axes_1">
+	<g id="patch_2">
+		<path class="st0" d="M27.4,73.6h83.6v-64H27.4V73.6z"/>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_1_" x="27.4" y="9.6" width="83.6" height="64"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st1">
+			
+				<image style="overflow:visible;enable-background:new    ;" width="84" height="64" id="imagefada0807eb" xlink:href="C962EB51.png"  transform="matrix(1 0 0 -1 27.4199 73.5838)">
+			</image>
+		</g>
+	</g>
+	<g id="patch_3">
+		<path class="st2" d="M27.4,73.6v-64"/>
+	</g>
+	<g id="patch_4">
+		<path class="st2" d="M111.1,73.6v-64"/>
+	</g>
+	<g id="patch_5">
+		<path class="st2" d="M27.4,73.6h83.6"/>
+	</g>
+	<g id="patch_6">
+		<path class="st2" d="M27.4,9.6h83.6"/>
+	</g>
+</g>
+<g id="axes_2">
+	<g id="patch_7">
+		<path class="st0" d="M142.6,73.6h89.5v-64h-89.5V73.6z"/>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_3_" x="142.6" y="9.6" width="89.5" height="64"/>
+		</defs>
+		<clipPath id="SVGID_4_">
+			<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st3">
+			
+				<image style="overflow:visible;enable-background:new    ;" width="90" height="64" id="imagec4063ebe6e" xlink:href="C962EB53.png"  transform="matrix(1 0 0 -1 142.6329 73.5838)">
+			</image>
+		</g>
+	</g>
+	<g id="patch_8">
+		<path class="st2" d="M142.6,73.6v-64"/>
+	</g>
+	<g id="patch_9">
+		<path class="st2" d="M232.2,73.6v-64"/>
+	</g>
+	<g id="patch_10">
+		<path class="st2" d="M142.6,73.6h89.5"/>
+	</g>
+	<g id="patch_11">
+		<path class="st2" d="M142.6,9.6h89.5"/>
+	</g>
+</g>
+<g id="axes_3">
+	<g id="patch_12">
+		<path class="st0" d="M256.9,73.6h97.3v-64h-97.3V73.6z"/>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_5_" x="256.9" y="9.6" width="97.3" height="64"/>
+		</defs>
+		<clipPath id="SVGID_6_">
+			<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st4">
+			
+				<image style="overflow:visible;enable-background:new    ;" width="98" height="64" id="image52ad6e69f2" xlink:href="C962EB56.png"  transform="matrix(1 0 0 -1 256.9048 73.5838)">
+			</image>
+		</g>
+	</g>
+	<g id="patch_13">
+		<path class="st2" d="M256.9,73.6v-64"/>
+	</g>
+	<g id="patch_14">
+		<path class="st2" d="M354.2,73.6v-64"/>
+	</g>
+	<g id="patch_15">
+		<path class="st2" d="M256.9,73.6h97.3"/>
+	</g>
+	<g id="patch_16">
+		<path class="st2" d="M256.9,9.6h97.3"/>
+	</g>
+</g>
+<g id="axes_4">
+	<g id="patch_17">
+		<path class="st0" d="M23.2,150.3h92.1v-64H23.2V150.3z"/>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_7_" x="23.2" y="86.4" width="92.1" height="64"/>
+		</defs>
+		<clipPath id="SVGID_8_">
+			<use xlink:href="#SVGID_7_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st5">
+			
+				<image style="overflow:visible;enable-background:new    ;" width="93" height="64" id="image88d2d440c3" xlink:href="C962EB57.png"  transform="matrix(1 0 0 -1 23.1892 150.3273)">
+			</image>
+		</g>
+	</g>
+	<g id="patch_18">
+		<path class="st2" d="M23.2,150.3v-64"/>
+	</g>
+	<g id="patch_19">
+		<path class="st2" d="M115.3,150.3v-64"/>
+	</g>
+	<g id="patch_20">
+		<path class="st2" d="M23.2,150.3h92.1"/>
+	</g>
+	<g id="patch_21">
+		<path class="st2" d="M23.2,86.4h92.1"/>
+	</g>
+</g>
+<g id="axes_5">
+	<g id="patch_22">
+		<path class="st0" d="M148.3,150.3h78.2v-64h-78.2V150.3z"/>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_9_" x="148.3" y="86.4" width="78.2" height="64"/>
+		</defs>
+		<clipPath id="SVGID_10_">
+			<use xlink:href="#SVGID_9_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st6">
+			
+				<image style="overflow:visible;enable-background:new    ;" width="79" height="64" id="imagebb4d57d1d4" xlink:href="C962EB52.png"  transform="matrix(1 0 0 -1 148.3176 150.3273)">
+			</image>
+		</g>
+	</g>
+	<g id="patch_23">
+		<path class="st2" d="M148.3,150.3v-64"/>
+	</g>
+	<g id="patch_24">
+		<path class="st2" d="M226.5,150.3v-64"/>
+	</g>
+	<g id="patch_25">
+		<path class="st2" d="M148.3,150.3h78.2"/>
+	</g>
+	<g id="patch_26">
+		<path class="st2" d="M148.3,86.4h78.2"/>
+	</g>
+</g>
+</svg>

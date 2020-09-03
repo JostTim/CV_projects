@@ -51,4 +51,9 @@ Jekyll repo theme[repository settings](https://github.com/JostTim/CV_projects/se
 Github pages [documentation](https://docs.github.com/categories/github-pages-basics/)
 
 ## Aknowlegements:
-Return icon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+Return icon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com
+
+</a>
+
+Backgrounds of projects tiles partially coming from : <a href='https://www.freepik.com/vectors/background'>starline</a>, <a href='https://www.freepik.com/vectors/background'>Vectorium</a>, <a href='https://www.freepik.com/psd/background'>juanitobanano</a>, 
+
