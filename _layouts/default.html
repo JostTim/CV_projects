@@ -121,6 +121,13 @@ img {
   /*max-width: 100%;*/
 }
 
+.headbg{
+  background-color: blue;
+  background-size: 200px,200px;
+  z-index: 5;
+
+}
+
 .largeheader {
   margin-right: 10%;
   margin-left: 10%;
@@ -177,18 +184,19 @@ img {
 
     <div id="container">
       <div class="inner">
-
-        <header>
-          <div class="largeheader ">{{ page.title | default: site.title | default: site.github.repository_name }}</div>
-          <!--<h2> {{ page.description | default: site.description | default: site.github.project_tagline }}</h2> -->
-	  <a href = "https://josttim.github.io/realizations/">
-		<div class="spacerblock">
-			<div class="see-more-button">
-				Back to main page
-			</div>
-		</div>
-	  </a>
-        </header>
+        <div class="headbg">
+          <header>
+            <div class="largeheader ">{{ page.title | default: site.title | default: site.github.repository_name }}</div>
+            <!--<h2> {{ page.description | default: site.description | default: site.github.project_tagline }}</h2> -->
+          	  <a href = "https://josttim.github.io/realizations/">
+            		<div class="spacerblock">
+            			<div class="see-more-button">
+            				Back to main page
+            			</div>
+            		</div>
+          	  </a>
+          </header>
+        </div>
       {% if site.show_downloads %}
         <section id="downloads" class="clearfix">
         	<a href="{{ site.github.zip_url }}" id="download-zip" class="button"><span>Download .zip</span></a>

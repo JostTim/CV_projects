@@ -17,3 +17,6 @@ The central alley is transparent and thus, allows us to record high speed videog
 <img src="Animation_mousepath_obstacles.gif" alt="Animation_mousepath_obstacles" style="max-width:80%;" />
 
 The full automation of the task and the use of rewards allows us to obtain better characterized and repeatable behaviors.
+
+
+
