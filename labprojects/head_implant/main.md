@@ -4,17 +4,23 @@ Attaching a multi-core fiber optical image guide to freely behaving models.
 
 ## In short :
 
-Miniature implant system to perform stable and precise mesoscale cortical imaging on freely behaving models.
+In my thesis with **Isabelle Ferezou** at **NeuroPSI**, I designed a miniature implant system to perform stable and precise **cortical** **imaging** at a **mesoscopic** scale, on **freely** **behaving** models.
 
-Using a flexible fiber optic bundle illustrated below, we record cortical fluorescence signals at a mesoscale resolution, while allowing models to behave freely.
+Using a flexible **fiber optic bundle** illustrated below, we are able to record cortical fluorescence signals, while allowing models to behave freely.
 
 <img src="Fibroscopy_schematic.png" alt="Fibroscopy_schematic" style="max-width:30%;" />
 
 <p style="text-align : center; text-decoration: underline;">Fiber optic bundle characteristics</p>
 
-The variation of fluorescence is measured and is on the order of magnitude of 1% (with Voltage Sensitive Dye RH1691).
+We used **Voltage Sensitive Dye** RH1691, for which the variation of fluorescence measured during a synchronous populational activity is on the order of magnitude of **1%** **Δf/f**.
 
-Thus, to be able to attach and detach easily this optical image guide to perform training, and to still be able to obtain a very stable fixation in order to avoid any measure of light variation that my be due to improper fixation, we designed a concentric fixation system in a tight space, and with a tiny weight (1.2g), illustrated below.
+This implies that to maintain a good signal to noise ratio, we have to **prevent** even the **most subtle movements**, that can induce displacement artifacts on the fluorescence signals.
+
+On the other hand, we have to **attach and detach easily** this optical image guide to perform daily training on several models. 
+
+One last requirement that we had is to be able to perform surgeries prior to the imaging experiment, to be able to stain the cortex adequately with dyes. For this reason, the implant features opened sides, as can be seen in the image below.
+
+The system that I developed , illustrated below, is designed with a **concentric fixation system** in a tight space, and with a tiny weight (1.2g).
 
 ![Photo - Schema](./Schema_photo1.png)
 
@@ -22,9 +28,7 @@ Thus, to be able to attach and detach easily this optical image guide to perform
 
 <p style="text-align : center; text-decoration: underline;">Photograph of the implant held in the headpost</p>
 
-Moreover, to perform certain types of cortical fluorescence imaging requiring dyes, one needs to be able to perform staining prior to experiment. For this reason, the implant features opened sides, as can be seen in the image above.
-
-One the figure below, you can see a cut-view of the implant components and a schematic representing how the elements sit onto the cortex in experimental conditions.
+One the figure below, you can see a section-view of the implant components and a schematic representing how the elements sits onto the cortex during experimental conditions.
 
 
 
@@ -32,11 +36,11 @@ One the figure below, you can see a cut-view of the implant components and a sch
 
 <p style="text-align : center; text-decoration: underline;">Schematic of the implant holding the fiber bundle over the cortex</p>
 
-The system works with first, a loose locking nut being passed through the fiber optic bundle. 
 
-Then, a tight fitted ring is fixed to the fiber optic end with a small M2 setscrew. The distance from the very tip of the fiber bundle and the adjustable ring sets the depth the fiber will sit at, once the assembly is fully locked.
 
-The ring is then fitted inside the implant, and because this ring has a partially hexagonal shape (as illustrated in red above) that matches the inside of the implant, the rotational position is then locked.
+<p> To lock the assembly, first, it is required to pass a loose <font  color="#10d446"><b>locking nut</b></font> through the <font  color="#73e4dd"><b>fiber optic bundle</b></font>.</p>
+
+<p>Then, a tight fitted <font  color="#ec1e50"><b>ring</b></font> is fixed to the fiber optic end with a small M2 setscrew. The distance from the very tip of the fiber bundle and the adjustable ring sets the depth the fiber will sit at, once the assembly is fully locked.</p>
 
 Finally, the locking nut is screwed onto the implant and doing so, push the slightly over-heighted adjustable depth ring into the implant until it is fully locked.
 
@@ -75,13 +79,13 @@ _____________
 
 The implant material is titanium, for it's high strength to weight ratio, and manufactured with 3D printing "laser sintering" technique.
 
-| **Material properties** | **[Stainless Steel (304L)](http://asm.matweb.com/search/SpecificMaterial.asp?bassnum=MQ304L)** | [**Titanium (Ti-6Al-4V)**](http://asm.matweb.com/search/SpecificMaterial.asp?bassnum=MTP642) | **[Aluminum (7050)](http://asm.matweb.com/search/SpecificMaterial.asp?bassnum=MA7050T735)** |
-| ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Density                 | 7.8-8 g/cm3                                                  | 4.43 g/cm3                                                   | 2.83 g/cm3                                                   |
-| Modulus of Elasticity   | 200 GPa                                                      | 114 GPa                                                      | 71.1 GPa                                                     |
-| Tensile Yield strength  | 210 MPa*                                                     | 1100 MPa*                                                    | 434 MPa*                                                     |
-| Elongation at Break     | 58%*                                                         | 10%                                                          | 12%                                                          |
-| Hardness (Brinell)      | 158                                                          | 379                                                          | 132                                                          |
+| Material properties    | [Stainless Steel (304L)](http://asm.matweb.com/search/SpecificMaterial.asp?bassnum=MQ304L) | [Titanium (Ti-6Al-4V)](http://asm.matweb.com/search/SpecificMaterial.asp?bassnum=MTP642) | [Aluminum (7050)](http://asm.matweb.com/search/SpecificMaterial.asp?bassnum=MA7050T735) |
+| ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Density                | 7.8-8 g/cm3                                                  | 4.43 g/cm3                                                   | 2.83 g/cm3                                                   |
+| Modulus of Elasticity  | 200 GPa                                                      | 114 GPa                                                      | 71.1 GPa                                                     |
+| Tensile Yield strength | 210 MPa*                                                     | 1100 MPa*                                                    | 434 MPa*                                                     |
+| Elongation at Break    | 58%*                                                         | 10%                                                          | 12%                                                          |
+| Hardness (Brinell)     | 158                                                          | 379                                                          | 132                                                          |
 
 \*  *varies widely based on alloy & heat treatment*
 
