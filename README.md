@@ -55,5 +55,5 @@ Return icon made by <a href="https://www.flaticon.com/authors/freepik" title="Fr
 
 </a>
 
-Backgrounds of projects tiles partially coming from : <a href='https://www.freepik.com/vectors/background'>starline</a>, <a href='https://www.freepik.com/vectors/background'>Vectorium</a>, <a href='https://www.freepik.com/psd/background'>juanitobanano</a>, 
+Backgrounds of projects tiles partially coming from : <a href='https://www.freepik.com/vectors/background'>starline</a>, <a href='https://www.freepik.com/vectors/background'>Vectorium</a>, <a href='https://www.freepik.com/psd/background'>juanitobanano</a>, <a href='https://www.freepik.com/vectors/background'>starline</a>, <a href='https://www.freepik.com/vectors/background'>vector_corp</a>, <a href='https://www.freepik.com/vectors/food'>upklyak</a>
 
