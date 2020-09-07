@@ -40,9 +40,9 @@ One the figure below, you can see a section-view of the implant components and a
 
 <p> To lock the assembly, first, it is required to pass a loose <font  color="#10d446"><b>locking nut</b></font> through the <font  color="#73e4dd"><b>fiber optic bundle</b></font>.</p>
 
-<p>Then, a tight fitted <font  color="#ec1e50"><b>ring</b></font> is fixed to the fiber optic end with a small M2 setscrew. The distance from the very tip of the fiber bundle and the adjustable ring sets the depth the fiber will sit at, once the assembly is fully locked.</p>
+<p>Then, a tight fitted <font  color="#ec1e50"><b>ring</b></font> is fixed to the fiber optic end with a small M2 setscrew. The distance from the very tip of the fiber bundle and the adjustable ring sets the depth at which the fiber will sit on the cortex, once the assembly is fully locked.</p>
 
-Finally, the locking nut is screwed onto the implant and doing so, push the slightly over-heighted adjustable depth ring into the implant until it is fully locked.
+Finally, the locking nut is screwed onto the implant and doing so, pushes the slightly over-heighted adjustable depth ring into the implant until it is fully locked.
 
 Here, you can see animated the complete operation, in section view.
 
@@ -62,22 +62,9 @@ Here is another representation to help picture the scale of the whole implant an
 
 _____________
 
-## Details:
+## Details :
 
-#### Requirements :
-
-- Allow for very firm fixation to avoid movement artifacts. (fluorescence signals max~ 1% DeltaF/F)
-- Plugg / unpluggable to perform daily training
-
-- Opened sides for craniotomy
-- Adjustable depth for fiber resting position to adapt for model variances
-- Ridged surface for strong bond with dental cement
-- Low weight and small size
-- Morphologically adapted to area desired for imaging.
-
-
-
-The implant material is titanium, for it's high strength to weight ratio, and manufactured with 3D printing "laser sintering" technique.
+The implant material is made from titanium, for it's high strength to weight ratio, and manufactured with 3D printing "laser sintering" technique, as well as good durability an low reactivity to chemical compounds.
 
 | Material properties    | [Stainless Steel (304L)](http://asm.matweb.com/search/SpecificMaterial.asp?bassnum=MQ304L) | [Titanium (Ti-6Al-4V)](http://asm.matweb.com/search/SpecificMaterial.asp?bassnum=MTP642) | [Aluminum (7050)](http://asm.matweb.com/search/SpecificMaterial.asp?bassnum=MA7050T735) |
 | ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
