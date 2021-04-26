@@ -42,7 +42,7 @@ https://shopify.github.io/liquid/tags/variable/
 
 ## Site building reference:
 
-GitHub pages based on [Jekyll](https://jekyllrb.com/) builder, with has HTML, CSS, JavaScript, Liquid and Markdown capabilities. 
+GitHub pages based on [Jekyll](https://jekyllrb.com/) builder, (tool having HTML, CSS, JavaScript, Liquid and Markdown parsing capabilities). 
 
 [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/) documentation.
 
